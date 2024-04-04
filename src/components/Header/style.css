@@ -1,0 +1,67 @@
+
+a{
+    text-decoration: none;
+}
+.left-side{
+    display: flex;
+}
+
+.app-logo{
+    height:35px;
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-text{
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 45px;
+    
+    color: #0e1133;
+   
+}
+
+.login-btn{
+    
+    line-height: 25px;
+    padding: 0 6px;
+    display: flex;
+    text-align: center;
+    height:35px;
+    width: 75px;
+    background-color: #2b70fa;
+    border: 1px solid #2b70fa;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+   
+    
+}
+
+.login-text{
+
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-top: 5px;
+    
+}
+.header {
+    z-index: 1000;
+    padding: 10px;
+    display: flex;
+    align-items: center;box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    height: 60px;
+    background-color: #ffffff;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+}
